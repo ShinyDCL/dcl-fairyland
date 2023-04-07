@@ -23,21 +23,25 @@ Textures used for 3D models:
 
 ###
 
-- Flowers, leaves on the ground, tree leaves, fairy wings and eyes were also generated using Midjourney. I removed the background from images and adjusted lightness, darkness and color.
-  From the generated flowers I ended up using the top right one.
+- Flowers, leaves on the ground, tree leaves, fairy wings and eyes were also generated using Midjourney. I removed the background from images and adjusted lightness, darkness and color. From the generated flowers I ended up using the top right one.
   ![Flowers generated using Midjourney](screenshots/midjourney-flower1.png)
+
   And from these the bottom left one.
   ![Flowers generated using Midjourney](screenshots/midjourney-flower2.png)
+
   For the leaves on the ground I used the top right image.
   ![Leaves generated using Midjourney](screenshots/midjourney-leaf.png)
+
   For the tree leaves I used the top right image.
   ![Tree leaves generated using Midjourney](screenshots/midjourney-tree-leaf.png)
+
   As eyes for the fairies I used the top left image.
   ![Eyes generated using Midjourney](screenshots/midjourney-eye.png)
+
   And for fairy wings I used the bottom right image.
   ![Wings generated using Midjourney](screenshots/midjourney-wings.png)
 
-  ###
+###
 
 - The wood texture used for trees was generated using [Dream Textures](https://github.com/carson-katri/dream-textures). The advantage of using it over Midjourney is that it is free to generate images if you choose the installation with local rendering, although I have not been able to achieve results as good as with Midjourney.
 
