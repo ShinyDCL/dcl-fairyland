@@ -2,6 +2,7 @@
 
 This project contains Fairyland scene created for Sandstorm's Decentraland contest #15 - Mythological creatures.
 Currently deployed under Decentraland name `Fairyland`. Follow [this link](https://play.decentraland.org/?realm=fairyland.dcl.eth) or type in the Decentraland chatbox `/changerealm fairyland.dcl.eth` to visit the scene.
+This scene is built with the SDK7.
 
 ![Fairyland](screenshots/fairyland1.png)
 ![Fairyland](screenshots/fairyland2.png)
@@ -60,18 +61,10 @@ npm i -g decentraland
 Open this folder on the command line, then run:
 
 ```
-dcl start
+npm run start
 ```
 
 Any dependencies are installed and then the CLI opens the scene in a new browser tab.
-
-## Resources
-
-Learn more about how to build your own scenes in our [documentation](https://docs.decentraland.org/) site.
-
-Find more example scenes, tutorials and helper libraries in the [Awesome Repository](https://github.com/decentraland-scenes/Awesome-Repository).
-
-If you need any help, join [Decentraland's Discord](https://dcl.gg/discord), where you'll find a vibrant community of other creators who are eager to help. You're sure to find help in the #SDK support channel.
 
 ## Copyright info
 

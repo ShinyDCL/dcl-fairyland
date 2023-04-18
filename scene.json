@@ -1,17 +1,23 @@
 {
+  "ecs7": true,
+  "runtimeVersion": "7",
   "display": {
     "title": "Fairyland",
     "description": "A magical world of enchantment and wonder inhabited by fairies",
     "navmapThumbnail": "images/scene-thumbnail.png",
     "favicon": "favicon_asset"
   },
-  "owner": "",
+  "owner": "ShinyDCL",
   "contact": {
     "name": "ShinyDCL",
     "email": "citrons915@gmail.com"
   },
-  "main": "bin/game.js",
-  "tags": [],
+  "main": "bin/index.js",
+  "tags": [
+    "Fairyland",
+    "Fairies",
+    "Treehouse"
+  ],
   "scene": {
     "parcels": [
       "25,25",
