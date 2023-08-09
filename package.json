@@ -1,5 +1,5 @@
 {
-  "name": "fairyland-dcl",
+  "name": "dcl-fairyland",
   "version": "1.0.0",
   "description": "Fairyland scene for Decentraland",
   "scripts": {
@@ -10,7 +10,8 @@
     "upgrade-sdk:next": "npm install --save-dev @dcl/sdk@next"
   },
   "devDependencies": {
-    "@dcl/sdk": "^7.1.5"
+    "@dcl/js-runtime": "7.3.7",
+    "@dcl/sdk": "^7.3.7"
   },
   "engines": {
     "node": ">=16.0.0",

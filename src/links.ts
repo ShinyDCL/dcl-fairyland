@@ -9,7 +9,7 @@ export enum LinkType {
 }
 
 export const URLS: Record<LinkType, string> = {
-  [LinkType.GITHUB]: 'https://github.com/ShinyDCL/fairyland-dcl',
+  [LinkType.GITHUB]: 'https://github.com/ShinyDCL/dcl-fairyland',
   [LinkType.TWITTER]: 'https://twitter.com/ShinyDCL/status/1640104068541476865',
   [LinkType.HYPERFY]: 'https://hyperfy.io/fairyland'
 } as const;
@@ -25,21 +25,15 @@ export const createLinkEntity = (transform: Partial<TransformType>, linkType: Li
   const entity = createModelEntity(transform, modelPath);
 
   pointerEventsSystem.onPointerDown(
-    entity,
-    function () {
-      openExternalUrl({ url: URLS[linkType] });
-    },
-    {
-      button: InputAction.IA_POINTER,
-      hoverText: linkType
-    }
+    { entity: entity, opts: { button: InputAction.IA_POINTER, hoverText: linkType } },
+    () => openExternalUrl({ url: URLS[linkType] })
   );
 
   return entity;
 };
 
 export const setupLinks = (): void => {
-  createLinkEntity({ position: { x: 61, y: 1.3, z: 46 } }, LinkType.HYPERFY);
-  createLinkEntity({ position: { x: 62, y: 1.3, z: 46 } }, LinkType.GITHUB);
-  createLinkEntity({ position: { x: 63, y: 1.3, z: 46 } }, LinkType.TWITTER);
+  createLinkEntity({ position: { x: 29, y: 1.3, z: 46 } }, LinkType.HYPERFY);
+  createLinkEntity({ position: { x: 30, y: 1.3, z: 46 } }, LinkType.GITHUB);
+  createLinkEntity({ position: { x: 31, y: 1.3, z: 46 } }, LinkType.TWITTER);
 };

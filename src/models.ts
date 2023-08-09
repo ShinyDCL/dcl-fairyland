@@ -1,7 +1,7 @@
 import { Entity, engine, Transform, GltfContainer, TransformType } from '@dcl/sdk/ecs';
 
 export const MODELS = {
-  grass: 'models/default/grass.glb',
+  border: 'models/border.glb',
   scene: 'models/scene.glb'
 } as const;
 
@@ -14,6 +14,6 @@ export const createModelEntity = (transform: Partial<TransformType>, modelPath: 
 };
 
 export const setupBaseModels = (): void => {
-  createModelEntity({ position: { x: 64, y: 0, z: 64 } }, MODELS.scene);
-  createModelEntity({ position: { x: 64, y: 0, z: 64 } }, MODELS.grass);
+  createModelEntity({ position: { x: 32, y: 0, z: 32 } }, MODELS.scene);
+  createModelEntity({ position: { x: 32, y: 0, z: 32 } }, MODELS.border);
 };

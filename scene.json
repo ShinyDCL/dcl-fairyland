@@ -1,111 +1,67 @@
 {
-  "ecs7": true,
-  "runtimeVersion": "7",
-  "display": {
-    "title": "Fairyland",
-    "description": "A magical world of enchantment and wonder inhabited by fairies",
-    "navmapThumbnail": "images/scene-thumbnail.png",
-    "favicon": "favicon_asset"
-  },
-  "owner": "ShinyDCL",
-  "contact": {
-    "name": "ShinyDCL",
-    "email": "citrons915@gmail.com"
-  },
-  "main": "bin/index.js",
-  "tags": [
-    "Fairyland",
-    "Fairies",
-    "Treehouse"
-  ],
-  "scene": {
-    "parcels": [
-      "25,25",
-      "25,26",
-      "25,27",
-      "25,28",
-      "25,29",
-      "25,30",
-      "25,31",
-      "25,32",
-      "26,25",
-      "26,26",
-      "26,27",
-      "26,28",
-      "26,29",
-      "26,30",
-      "26,31",
-      "26,32",
-      "27,25",
-      "27,26",
-      "27,27",
-      "27,28",
-      "27,29",
-      "27,30",
-      "27,31",
-      "27,32",
-      "28,25",
-      "28,26",
-      "28,27",
-      "28,28",
-      "28,29",
-      "28,30",
-      "28,31",
-      "28,32",
-      "29,25",
-      "29,26",
-      "29,27",
-      "29,28",
-      "29,29",
-      "29,30",
-      "29,31",
-      "29,32",
-      "30,25",
-      "30,26",
-      "30,27",
-      "30,28",
-      "30,29",
-      "30,30",
-      "30,31",
-      "30,32",
-      "31,25",
-      "31,26",
-      "31,27",
-      "31,28",
-      "31,29",
-      "31,30",
-      "31,31",
-      "31,32",
-      "32,25",
-      "32,26",
-      "32,27",
-      "32,28",
-      "32,29",
-      "32,30",
-      "32,31",
-      "32,32"
-    ],
-    "base": "25,25"
-  },
-  "spawnPoints": [
-    {
-      "name": "spawn1",
-      "default": true,
-      "position": {
-        "x": 64,
-        "y": 0,
-        "z": 45
-      },
-      "cameraTarget": {
-        "x": 64,
-        "y": 1,
-        "z": 64
-      }
-    }
-  ],
-  "requiredPermissions": [],
-  "featureToggles": {},
-  "worldConfiguration": {
-    "name": "fairyland.dcl.eth"
-  }
+	"ecs7": true,
+	"runtimeVersion": "7",
+	"display": {
+		"title": "Fairyland",
+		"description": "A magical world of enchantment and wonder inhabited by fairies",
+		"navmapThumbnail": "images/scene-thumbnail.png",
+		"favicon": "favicon_asset"
+	},
+	"owner": "ShinyDCL",
+	"contact": {
+		"name": "ShinyDCL",
+		"email": "citrons915@gmail.com"
+	},
+	"main": "bin/index.js",
+	"tags": [
+		"Fairyland",
+		"Fairies",
+		"Treehouses",
+		"Fantasy",
+		"Magical",
+		"Flowers",
+		"Nature",
+		"Mythical",
+		"Wonderland",
+		"Forest"
+	],
+	"scene": {
+		"parcels": [
+			"25,25",
+			"25,26",
+			"25,27",
+			"25,28",
+			"26,25",
+			"26,26",
+			"26,27",
+			"26,28",
+			"27,25",
+			"27,26",
+			"27,27",
+			"27,28",
+			"28,25",
+			"28,26",
+			"28,27",
+			"28,28"
+		],
+		"base": "25,25"
+	},
+	"spawnPoints": [
+		{
+			"name": "spawn1",
+			"default": true,
+			"position": {
+				"x": 34,
+				"y": 0,
+				"z": 37
+			},
+			"cameraTarget": {
+				"x": 31,
+				"y": 1,
+				"z": 32
+			}
+		}
+	],
+	"requiredPermissions": [],
+	"featureToggles": {}
 }
