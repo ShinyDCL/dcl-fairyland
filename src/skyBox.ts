@@ -1,5 +1,6 @@
-import { Entity, engine, Transform, MeshRenderer, Material } from '@dcl/sdk/ecs';
-import { Vector3, Quaternion } from '@dcl/sdk/math';
+import { engine, Entity, Material, MeshRenderer, Transform } from '@dcl/sdk/ecs';
+import { Quaternion, Vector3 } from '@dcl/sdk/math';
+
 import { sceneMiddle, sceneSize } from './resources';
 
 export const createSkyBox = (parent: Entity): Entity => {

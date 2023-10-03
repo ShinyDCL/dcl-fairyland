@@ -4,6 +4,8 @@ This project contains Fairyland scene created for Sandstorm's Decentraland conte
 Currently deployed under Decentraland name `Fairyland`. Follow [this link](https://play.decentraland.org/?realm=fairyland.dcl.eth) or type in the Decentraland chatbox `/changerealm fairyland.dcl.eth` to visit the scene.
 This scene is built with the SDK7.
 
+Skybox generated using Blockade Labs [Skybox AI tool](https://skybox.blockadelabs.com/) licensed under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
+
 ![Fairyland](screenshots/fairyland1.jpg)
 ![Fairyland](screenshots/fairyland2.jpg)
 ![Fairyland](screenshots/fairyland3.jpg)
@@ -52,23 +54,20 @@ Textures used for 3D models:
 
 ## Try it out
 
-**Install the CLI**
+1. Download this repository.
 
-Download and install the Decentraland CLI by running the following command:
+2. Install the [Decentraland Editor](https://docs.decentraland.org/creator/development-guide/sdk7/editor/)
 
-```bash
-npm i -g decentraland
-```
+3. Open a Visual Studio Code window on this scene's root folder. Not on the root folder of the whole repo, but instead on this sub-folder that belongs to the scene.
 
-**Previewing the scene**
+4. Open the Decentraland Editor tab, and press **Run Scene**
 
-Open this folder on the command line, then run:
+Alternatively, you can use the command line. Inside this scene root directory run:
 
 ```
+npm i
 npm run start
 ```
-
-Any dependencies are installed and then the CLI opens the scene in a new browser tab.
 
 ## Copyright info
 

@@ -1,24 +1,14 @@
-import { AudioSource, Transform, engine } from '@dcl/sdk/ecs';
+import { engine, GltfContainer, Transform } from '@dcl/sdk/ecs';
+
 import { setupLinks } from './links';
-import { setupBaseModels } from './models';
-import { createSkyBox } from './skyBox';
 import { sceneMiddle } from './resources';
+import { createSkyBox } from './skyBox';
 
 export function main() {
-  const root = engine.addEntity();
-  Transform.create(root, { position: { x: sceneMiddle, y: 0, z: sceneMiddle } });
+  const scene = engine.addEntity();
+  Transform.create(scene, { position: { x: sceneMiddle, y: 0, z: sceneMiddle } });
+  GltfContainer.create(scene, { src: 'models/scene4x4.glb' });
 
-  setupBaseModels(root);
-  setupLinks(root);
-  createSkyBox(root);
-
-  // Attach entity with audio to player
-  const audioEntity = engine.addEntity();
-  AudioSource.create(audioEntity, {
-    audioClipUrl: 'sounds/background-music.mp3',
-    loop: true,
-    playing: true,
-    volume: 0.5
-  });
-  Transform.create(audioEntity, { parent: engine.PlayerEntity });
+  setupLinks(scene);
+  createSkyBox(scene);
 }
