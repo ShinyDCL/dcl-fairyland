@@ -1,6 +1,7 @@
 import { engine, GltfContainer, Transform } from '@dcl/sdk/ecs';
 
-import { setupLinks } from './links';
+import { setUpLinks } from './links';
+import { setUpMusic } from './music';
 import { sceneMiddle } from './resources';
 import { createSkyBox } from './skyBox';
 
@@ -9,6 +10,7 @@ export function main() {
   Transform.create(scene, { position: { x: sceneMiddle, y: 0, z: sceneMiddle } });
   GltfContainer.create(scene, { src: 'models/scene4x4.glb' });
 
-  setupLinks(scene);
+  setUpLinks(scene);
   createSkyBox(scene);
+  setUpMusic();
 }

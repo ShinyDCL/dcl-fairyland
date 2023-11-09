@@ -44,9 +44,9 @@ export const createLinkEntity = (transform: Partial<TransformType>, linkType: Li
   return entity;
 };
 
-export const setupLinks = (parent: Entity): void => {
+export const setUpLinks = (parent: Entity): void => {
   createLinkEntity({ position: { x: -3, y: 1.3, z: 14 }, parent }, LinkType.HYPERFY);
-  createLinkEntity({ position: { x: -2, y: 1.3, z: 14 }, parent }, LinkType.GITHUB);
-  createLinkEntity({ position: { x: -1, y: 1.3, z: 14 }, parent }, LinkType.TWITTER);
+  createLinkEntity({ position: { x: -1, y: 1.3, z: 14 }, parent }, LinkType.GITHUB);
+  createLinkEntity({ position: { x: -2, y: 1.3, z: 14 }, parent }, LinkType.TWITTER);
   createLinkEntity({ position: { x: -4, y: 1.3, z: 14 }, parent }, LinkType.MUSIC);
 };
