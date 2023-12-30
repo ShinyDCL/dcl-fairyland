@@ -14,16 +14,7 @@
 	},
 	"main": "bin/index.js",
 	"tags": [
-		"Fairyland",
-		"Fairies",
-		"Treehouses",
-		"Fantasy",
-		"Magical",
-		"Flowers",
-		"Nature",
-		"Mythical",
-		"Wonderland",
-		"Forest"
+		"art"
 	],
 	"scene": {
 		"parcels": [
